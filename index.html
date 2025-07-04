@@ -32,11 +32,16 @@
       animation: fadeInUp 1.2s ease;
     }
 
+    header {
+      animation: slideDown 1.2s ease;
+    }
+
     header h1 {
       text-align: center;
       color: #00f7ff;
       font-size: 2rem;
       margin-bottom: 0.5rem;
+      animation: glow 2s infinite alternate;
     }
 
     header p {
@@ -72,7 +77,17 @@
       border-left: 5px solid #00f7ff;
       border-radius: 10px;
       transition: transform 0.3s ease;
+      animation: fadeInService 1s ease forwards;
+      opacity: 0;
     }
+
+    ul.servicos li:nth-child(1) { animation-delay: 0.2s; }
+    ul.servicos li:nth-child(2) { animation-delay: 0.4s; }
+    ul.servicos li:nth-child(3) { animation-delay: 0.6s; }
+    ul.servicos li:nth-child(4) { animation-delay: 0.8s; }
+    ul.servicos li:nth-child(5) { animation-delay: 1s; }
+    ul.servicos li:nth-child(6) { animation-delay: 1.2s; }
+    ul.servicos li:nth-child(7) { animation-delay: 1.4s; }
 
     ul.servicos li:hover {
       transform: translateX(10px);
@@ -83,32 +98,6 @@
       font-size: 1.6rem;
       color: #00f7ff;
       text-shadow: 0 0 10px #00f7ff;
-    }
-
-    form input, form textarea {
-      width: 100%;
-      margin: 0.7rem 0;
-      padding: 0.8rem;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-    }
-
-    form button {
-      width: 100%;
-      padding: 0.8rem;
-      background: #00f7ff;
-      color: black;
-      font-weight: bold;
-      border: none;
-      border-radius: 8px;
-      font-size: 1.1rem;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-
-    form button:hover {
-      background: #00e1e1;
     }
 
     footer {
@@ -180,6 +169,20 @@
       60% { transform: scale(1.1) translateY(-20%); opacity: 1; }
       100% { transform: scale(1) translateY(0); }
     }
+
+    @keyframes glow {
+      0% { text-shadow: 0 0 5px #00f7ff; }
+      100% { text-shadow: 0 0 25px #00f7ff; }
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeInService {
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
@@ -200,16 +203,6 @@
       <li><i class="bi bi-pc-display"></i> Formatação de PCs e Notebooks</li>
       <li><i class="bi bi-headset"></i> Venda de Acessórios Premium</li>
     </ul>
-  </section>
-
-  <section>
-    <h2><i class="bi bi-envelope-fill"></i> Fale Conosco</h2>
-    <form>
-      <input type="text" placeholder="Seu nome" required />
-      <input type="email" placeholder="Seu e-mail" required />
-      <textarea placeholder="Sua mensagem" rows="4" required></textarea>
-      <button type="submit"><i class="bi bi-send-fill"></i> Enviar</button>
-    </form>
   </section>
 
   <section>
