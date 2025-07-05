@@ -1,9 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://bluetech001.github.io/meu-site/</loc>
-    <lastmod>2025-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- TÍTULO SEO -->
+  <title>Blue Tech Assistência Técnica em Tremembé/SP</title>
+
+  <!-- META DESCRIPTION SEO -->
+  <meta name="description" content="Assistência Técnica especializada em aparelhos Apple e Smartphones em Tremembé/SP. Troca de tela, bateria, upgrades, acessórios premium e muito mais.">
+
+  <!-- GOOGLE SEARCH CONSOLE VERIFICATION -->
+  <meta name="google-site-verification" content="COLE_SEU_CÓDIGO_AQUI" />
+
+  <!-- ESTILOS (Opcional: use seu CSS) -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+      background-color: #f7f7f7;
+      color: #333;
+      text-align: center;
+    }
+    h1 {
+      color: #0055aa;
+    }
+    a {
+      color: #0055aa;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Blue Tech Assistência Técnica</h1>
+  <p>Seu aparelho Apple ou Smartphone como novo!</p>
+  <p>📍 Rua Ismael Dias da Silva, 677 – Loja 13 – Tremembé/SP</p>
+  <p>📱 WhatsApp: (12) 98284-1927</p>
+  <p>📸 Instagram: <a href="https://www.instagram.com/blue_tech001/" target="_blank">@blue_tech001</a></p>
+  <p><a href="https://bluetech001.github.io/meu-site/">Voltar para página inicial</a></p>
+</body>
+</html>
