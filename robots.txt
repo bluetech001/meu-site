@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bluetech001.github.io/meu-site/sitemap.xml
